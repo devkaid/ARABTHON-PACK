@@ -1,7 +1,7 @@
-FROM JMTHON-AR/JM-THON:alpine
+FROM devkaid/ARABTHON-PACK
 
 #clonning repo 
-RUN git clone https://github.com/devkaid/ARABTHON-PACK /root/userbot
+RUN git clone https://github.com/devkaid/ARABTHON-PACK/root/userbot
 #working directory 
 WORKDIR /root/userbot
 
